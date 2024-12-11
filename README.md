@@ -9,7 +9,7 @@ A JavaScript script to automate unsubscribing from multiple YouTube channels.
 
 ## Script
 ```javascript
-// (async () => {
+(async () => {
     const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
     async function unsubscribeFromAll() {
